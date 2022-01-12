@@ -1,3 +1,12 @@
+以下MD来自原项目（loboris的pppos client）修改
+
+本项目以卫星通信模块（类似于GPRS模块，只不过接收的是卫星信号而不是基站信号）HTDM1611模块替换原项目的SIM900a模块，其业务流程差不多，只是连接上PPP的AT流程不太一样。
+
+本项目增加4G模块用来建立一个tcp连接到远程服务器，利用模块内部的tcp/ip协议栈完成，esp32只需要控制连接与断开，接收数据即可，4g模块为移远EC600N-CN
+
+本项目增加对连接到esp32 WiFi站点的上网支持，连接到ESP32热点的设备可以访问互联网，数据通过esp32->到卫星模块
+
+本项目取消了原项目中对http/https的内容，而更像是一个路由器。
 ### PPP over Serial (PPPoS) client example
 
 Tested with **esp-idf v4.1** and latest esp-idf master branch
