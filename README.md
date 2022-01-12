@@ -7,6 +7,8 @@
 本项目增加对连接到esp32 WiFi站点的上网支持，连接到ESP32热点的设备可以访问互联网，数据通过esp32->到卫星模块
 
 本项目取消了原项目中对http/https的内容，而更像是一个路由器。
+
+以下内容源自于原项目，并未做修改。
 ### PPP over Serial (PPPoS) client example
 
 Tested with **esp-idf v4.1** and latest esp-idf master branch
