@@ -1,6 +1,6 @@
 ### PPP over Serial (PPPoS) client example
 
-Tested with **esp-idf v2.1** and latest esp-idf master branch
+Tested with **esp-idf v4.1** and latest esp-idf master branch
 
 ---
 
